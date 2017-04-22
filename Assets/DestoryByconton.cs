@@ -4,14 +4,12 @@ using UnityEngine;
 
 public class DestoryByconton : MonoBehaviour {
 
+	public GameObject explosion;
 
 	void OnTriggerEnter (Collider other)
 	{
-		if (other.tag == "Boundary")
-		{
-			return;
-		}
-
 		Destroy (gameObject);
-}
+
+
+   }
 }
